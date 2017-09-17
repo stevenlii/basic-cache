@@ -8,13 +8,13 @@ import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
-public final class test {
+public final class RedisHash {
 	private static JedisPool pool;
 	private static Logger logger = LogManager.getLogger();
     public static void main(String[] args) {
     	String testString = MyProp.getVariable("redis.password");
     	String testString2 = MyProp.getVariable("redis.port");
-//    	System.out.println(testString);
+//    	System.out.println(tesredis.porttString);
 //    	System.out.println(testString2);
     	
 	}
